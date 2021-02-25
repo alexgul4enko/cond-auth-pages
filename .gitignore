@@ -36,3 +36,4 @@ sonar-project.properties
 # npm pack artifacts
 *.tgz
 .eslintcache
+mf.config.json

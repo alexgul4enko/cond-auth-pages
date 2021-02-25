@@ -5,6 +5,7 @@
   "contributors": [],
   "scripts": {
     "start": "test-react-scripts-cond start",
+    "mf-config": "test-react-scripts-cond update-config",
     "build": "NODE_ENV=production test-react-scripts-cond build",
     "lint": "yarn run eslint && yarn run stylelint",
     "lint:fix": "yarn run eslint:fix && yarn run stylelint:fix",
@@ -24,6 +25,6 @@
     "husky": "^4.3.8",
     "lint-staged": "^10.5.4",
     "stylelint-config-cond": "^1.0.2",
-    "test-react-scripts-cond": "^1.0.41"
+    "test-react-scripts-cond": "^1.0.46"
   }
 }

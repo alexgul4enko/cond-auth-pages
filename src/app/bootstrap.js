@@ -4,5 +4,5 @@ import '../styles/index.scss'
 
 render(
   <App/>,
-  document.getElementById('root')
+  document.getElementById('root'),
 )
