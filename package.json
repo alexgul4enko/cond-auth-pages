@@ -1,0 +1,29 @@
+{
+  "name": "cond-auth-pages",
+  "version": "1.0.0",
+  "description": "",
+  "contributors": [],
+  "scripts": {
+    "start": "test-react-scripts-cond start",
+    "build": "NODE_ENV=production test-react-scripts-cond build",
+    "lint": "yarn run eslint && yarn run stylelint",
+    "lint:fix": "yarn run eslint:fix && yarn run stylelint:fix",
+    "eslint": "eslint src/**/*.js",
+    "eslint:fix": "eslint src/**/*.js --fix",
+    "stylelint": "stylelint 'src/**/*.scss' --syntax scss",
+    "stylelint:fix": "stylelint 'src/**/*.scss' --syntax scss --fix",
+    "test": "jest --config jest.conf.json -u"
+  },
+  "dependencies": {
+    "@cranium/router": "^1.0.34",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-cond": "^1.0.2",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.4",
+    "stylelint-config-cond": "^1.0.2",
+    "test-react-scripts-cond": "^1.0.41"
+  }
+}
