@@ -1,7 +1,6 @@
 {
   "src/**/*.{jsx,js}": [
-    "eslint",
-    "madge --circular src/app/index.js"
+    "eslint"
   ],
   "src/**/*.scss": [
     "stylelint --syntax scss"
